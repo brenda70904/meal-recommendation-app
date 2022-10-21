@@ -20,7 +20,7 @@ Brenda Jow, Jason Christopher, Cody Delatorre
 ### What will be your group’s process to resolve conflict, when it arises?
     First, have team discussion, if the prblem is still not resolve, get second opinion. 
 ### What will your team do if one person is taking over the project and not letting the other members contribute?
-    Have discussion with them first, if probelm is still not resolve, get second opinion. 
+    Have discussion with them first, if probelm is still not resolve, get second opinion. We agree to be straightforward and respectful. 
 ### How will you approach each other and the challenges of the project knowing that it is impossible for all members to be at the exact same place in understanding and skill level?
     Understand that we all learn diffently, help each other understand concept that they struggle with. 
 ### How will you raise concerns to members who are not adequately contributing?
