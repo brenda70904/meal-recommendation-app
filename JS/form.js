@@ -94,3 +94,15 @@ for (let i = 0; i < allOther.length; i++) {
   li.appendChild(input);
   li.appendChild(label);
 }
+
+//Get "checked" ingredients
+
+
+document.getElementById('ingredientsForm').addEventListener('submit', (e) => {
+  e.preventDefault();
+  let selected = document.querySelectorAll('input[type=checkbox]:checked');
+  for (let i = 0; i < selected.length; i++) {
+    console.log(selected[i].value);
+  }
+}
+)
