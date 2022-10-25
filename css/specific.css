@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+h1{
+  font-family: 'Irish Grover';
+  font-size: 50px;
+  padding: 0px;
+  margin: 10px;
+  min-width: 400px;
+}
+
+nav{ 
+  min-width: 500px;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav a{
+  font-size: 30px;
+  text-decoration: none;
+  padding: 0 30px;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+nav a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+nav a:active{
+  color: black;
+}
+
+#imgAndList{
+  display: flex;
+  justify-content: space-around;
+}
+
+#imgAndList img{
+  height: 400px;
+  width: 400px;
+  border: 1px solid black;
+}
+
+ul{
+  border: 1px solid black;
+}
+
+ul li{
+  font-size: 20px;
+}
+
+ol{
+  border: 1px solid black;
+}
+
+ol li{
+  font-size: 20px;
+}
+
+footer{
+  text-align: center;
+  border: 1px solid black;
+}
+
+footer a{
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+}
+
+.socialMedia{
+  width: 50px;
+  height: 50px;
+  color: black;
+  cursor: pointer;
+  margin: 20px;
+  transition: 0.2s;
+}
+
+.socialMedia:hover{
+  opacity: 0.5;
+}
+
+.socialMedia:active{
+  opacity: 1;
+}
+
+footer p{
+  margin-bottom: 10px;
+}
