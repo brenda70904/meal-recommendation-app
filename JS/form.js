@@ -8,6 +8,39 @@ list1.getElementsByClassName('anchor')[0].onclick = function (evt) {
     list1.classList.add('visible');
 }
 
+var list2 = document.getElementById('list2');
+list2.getElementsByClassName('anchor')[0].onclick = function (evt) {
+  if (list2.classList.contains('visible'))
+    list2.classList.remove('visible');
+  else
+    list2.classList.add('visible');
+}
+
+
+var list3 = document.getElementById('list3');
+list3.getElementsByClassName('anchor')[0].onclick = function (evt) {
+  if (list3.classList.contains('visible'))
+    list3.classList.remove('visible');
+  else
+    list3.classList.add('visible');
+}
+
+
+var list4 = document.getElementById('list4');
+list4.getElementsByClassName('anchor')[0].onclick = function (evt) {
+  if (list4.classList.contains('visible'))
+    list4.classList.remove('visible');
+  else
+    list4.classList.add('visible');
+}
+
+var list5 = document.getElementById('list5');
+list5.getElementsByClassName('anchor')[0].onclick = function (evt) {
+  if (list5.classList.contains('visible'))
+    list5.classList.remove('visible');
+  else
+    list5.classList.add('visible');
+}
 
 const form = document.querySelector('form');
 
