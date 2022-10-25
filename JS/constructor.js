@@ -19,7 +19,7 @@ let allRecipes = [];
 
 let chickenTikkaMasala = new Recipe(
   'Chicken Tikka Masala',
-  'chickenTikkaMasala'
+  'chickenTikkaMasala',
   ['chicken thighs', 'yogurt', 'garlic', 'ginger', 'turmeric', 'cumin', 'onion', 'tomato puree', 'cream', 'brown sugar'],
   ['28 oz boneless & skinless chicken thighs cut into bite-sized pieces', '1 cup plain yogurt', '1 1/2 tbsp minced garlic', '1 tbsp ginger', '2 tsp garam masala', '1 tsp turmeric', '1 tsp ground cumin', '1 tsp Kashmiri chili (or 1/2 tsp ground red chili powder)', '1 tsp of salt', '2 tsp of vegetable/canola oil', '2 tbsp butter', '2 small onions finely diced', '1 1/2 tbsp garlic finely grated', '1 tbsp ginger finely grated', '1 1/2 tsp garam masala', '1 1/2 tsp ground cumin', '1 tsp turmeric powder', '1 tsp ground coriander', '14 oz tomato puree', '1 tsp Kashmiri chili (optional)', '1 tsp ground red chili powder', '1 tsp salt', '1 1/4 cups of heavy cream', '1 tsp brown sugar', '1/4 cup water (if needed)', '4 tbsp fresh cilantro or coriander to garnish'],
   ['In a bowl, combine chicken with all of the ingredients for the chicken marinade; let marinate for 10 minutes to an hour (or overnight if time allows).', 'Heat oil in a large skillet or pot over medium-high heat. When sizzling, add chicken pieces in batches of two or three. Fry until browned for only 3 minutes on each side. Set aside and keep warm.', 'Melt the butter in the same pan. Fry the onions until soft (about 3 minutes) while scraping up any browned bits stuck on the bottom of the pan. ', 'Add garlic and ginger and sauté for 1 minute until fragrant, then add garam masala, cumin, turmeric and coriander. Fry for about 20 seconds until fragrant, while stirring occasionally.', 'Pour in the tomato puree, chili powders and salt. Let simmer for about 10-15 minutes, stirring occasionally until sauce thickens and becomes a deep brown red colour.', 'Stir the cream and sugar through the sauce. Add the chicken and its juices back into the pan and cook for an additional 8-10 minutes until chicken is cooked through and the sauce is thick and bubbling.', 'Garnish with cilantro (coriander) and serve with hot garlic butter rice and fresh homemade Naan bread.'],
@@ -50,7 +50,7 @@ let mongolianBeef = new Recipe(
 let garlicButterChicken = new Recipe(
   'Garlic Butter Chicken',
   'garlicButterChicken',
-  ['chicken breast', 'chicken broth', 'garlic'],
+  ['chicken breast', 'stock', 'garlic'],
   ['3 tbsp oil', '1 1/2 lbs boneless & skinless chicken breasts, pounded to an even thickness (4 average-sized breasts)', '1-2 tsp seasoning', '1 tsp salt', '1 tsp black pepper', '1/2 cup white wine or chicken broth', '3 tbsp unsalted butter', '1 tbsp minced garlic', '2 tsp fresh parsley (optional)'],
   ['To a large skillet, add the oil, pounded chicken, evenly season with seasoning, salt, pepper, and cook over medium-high heat for 5 minutes. After 5 minutes, flip chicken over. It should have a medium golden color.', 'Allow chicken to cook on the second side for about 5 minutes, or until done and cooked through.', 'Remove chicken with a slotted spatula and place it on a plate to rest.', 'Using caution, deglaze your skillet by adding wine (or broth) and allow the liquid to bubble up and steam violently for a few seconds.', 'Add the butter and allow it to melt, about 1 minute; stir continuously until melted.', 'Add the garlic and cook until fragrant, about 1 minutes; stir continuously.', 'Turn the heat off, add the chicken back into the skillet, flip it around in the garlic butter sauce, and spoon the sauce over the chicken.', 'Optionally garnish with parsley and serve immediately.'],
   4,
@@ -238,14 +238,14 @@ let spamMusubi = new Recipe(
 
 let redPozole = new Recipe(
   'Chicken Pozole Rojo',
-  'redPozole',
+  'pozoleRojo',
   ['chicken breast', 'onion', 'garlic', 'guajillo chiles', 'Hominy', 'cabbage', 'lime'],
   ['10 cups water', '2 pounds chicken breast', '1 small white onion, quartered', '2 garlic cloves, peeled', '2 teaspoons salt', '8 guajillo chiles, rinsed, stemmed, and seeded', '3 (15.5-ounce) cans White Hominy, rinsed and drained', 'Shredded cabbage', 'Radish slices', 'Limes', 'Diced onion', 'Dried oregano'],
   ['In a 6-quart pot place chicken, onion, garlic, and 1 teaspoon salt and bring to a boil and then lower heat to medium-low for 20 minutes or until chicken is no longer pink. In a large bowl filled with hot water add dried chiles until the chiles have softened about 10 to 15 minutes. Discard liquid. Shred the chicken into small pieces. In a blender combine 1 cup of the cooked chicken broth with onions, garlic, and softened chiles with 1 teaspoon of salt and blend. Reserve the remaining chicken broth. Add the shredded chicken, blended sauce, and White Hominy to the pot with reserved broth and bring to a boil. Lower the heat and simmer for 20 minutes. If necessary, season with salt. Spoon pozole into soup bowls. Let your guests add the garnishes to suit their own taste.'],
   10,
   45
 );
-
+// console.log(allRecipes);
 
 // 
 //   chickenTikkaMasala,
