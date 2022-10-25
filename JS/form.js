@@ -127,3 +127,49 @@ for (let i = 0; i < allOther.length; i++) {
   li.appendChild(input);
   li.appendChild(label);
 }
+
+let cb = document.querySelectorAll('input');
+console.log(typeof cb)
+
+let myIngredients = [];
+console.log(cb[0].checked)
+
+function getMyIngredients(event) {
+  event.preventDefault();
+  for (let i = 0; i < allCarbs.length + allDairy.length + allOther.length + allProtein.length + allVegFruit.length; i++) {
+    if (cb[i].checked === true) {
+      myIngredients.push(cb[i].id);
+    }
+  }
+  console.log(myIngredients);
+ saveLocalStorage();
+}
+ 
+let submit = document.getElementById('submit');
+submit.addEventListener('click', getMyIngredients);
+
+// console.log(myIngredients);
+
+
+let results = [];
+// console.log(allRecipes);
+function saveLocalStorage() {
+
+
+for (let i = 0; i < allRecipes.length; i++) {
+  let match = true;
+  for (let j = 0; j < allRecipes[i].ingredients.length; j++) {
+    if (myIngredients.includes(allRecipes[i].ingredients[j])) {
+    } else {
+      match = false;
+      break;
+    }
+    
+  }
+  if (match === true) {
+      results.push(allRecipes[i]);
+
+    }
+}
+ console.log(results);
+}
