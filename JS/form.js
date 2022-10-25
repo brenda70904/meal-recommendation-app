@@ -44,13 +44,13 @@ list5.getElementsByClassName('anchor')[0].onclick = function (evt) {
 
 const form = document.querySelector('form');
 
-let allProtein = ['chicken breast', 'chicken thighs', 'pork', 'beef brisket', 'flank steak', 'corned beef', 'ground beef', 'salmon', 'spam', 'egg'];
+let allProtein = ['chicken breast', 'chicken thighs', 'pork', 'beef brisket', 'flank steak', 'corned beef', 'ground beef', 'salmon', 'spam', 'egg', 'black beans'];
 
-let allVegFruit = ['garlic', 'ginger', 'onion', 'green onion', 'tomato puree', 'tomato', 'potato', 'green beans', 'peppers', 'mushrooms', 'carrot', 'peas', 'cabbage', 'seaweed', 'hominy', 'guajillo chile', 'cilantro', 'basil', 'lemon', 'lime'];
+let allVegFruit = ['garlic', 'ginger', 'onion', 'green onion', 'tomato puree', 'tomato', 'potato', 'green beans', 'peppers', 'mushrooms', 'carrot', 'peas', 'cabbage', 'seaweed', 'hominy', 'guajillo chile', 'cilantro', 'basil', 'lemon', 'lime','bok choy','edamame'];
 
-let allDairy = ['feta cheese', 'parmesan cheese', 'cheddar cheese', 'milk', 'cream', 'butter'];
-let allCarbs = ['ramen noodles', 'spaghetti noodles', 'chow mein noodles', 'macaroni', 'bread crumbs', 'rice', 'tortillas'];
-let allOther = ['turmeric', 'cumin', 'brown sugar', 'cashews', 'sugar', 'sesame oil', 'cornstarch', 'oregano', 'paprika', 'rice vinegar', 'capers', 'pine nuts', 'soy sauce', 'red curry paste', 'oyster sauce', 'garlic powder', 'balsamic vinegar', 'ketchup', 'mustard', 'hoisin sauce', 'red chili flakes', 'beef bouillon', 'stock'];
+let allDairy = ['feta cheese', 'parmesan cheese', 'cheddar cheese', 'milk', 'cream', 'butter','coconut milk'];
+let allCarbs = ['ramen noodles', 'spaghetti noodles', 'chow mein noodles', 'macaroni', 'bread crumbs', 'rice', 'tortillas', 'bread'];
+let allOther = ['turmeric', 'cumin', 'brown sugar', 'cashews', 'sugar', 'sesame oil', 'cornstarch', 'oregano', 'paprika', 'rice vinegar', 'capers', 'pine nuts', 'soy sauce', 'red curry paste', 'oyster sauce', 'garlic powder', 'balsamic vinegar', 'ketchup', 'mustard', 'hoisin sauce', 'red chili flakes', 'beef bouillon', 'stock', 'honey', 'enchilada sauce','yellow curry powder', ];
 
 let listOne = document.getElementById('proteins');
 let listTwo = document.getElementById('vegetables');
@@ -141,10 +141,10 @@ function getMyIngredients(event) {
       myIngredients.push(cb[i].id);
     }
   }
-  console.log(myIngredients);
- saveLocalStorage();
+  saveLocalStorage();
+  window.location.href = "results.html";
 }
- 
+
 let submit = document.getElementById('submit');
 submit.addEventListener('click', getMyIngredients);
 
@@ -154,22 +154,23 @@ submit.addEventListener('click', getMyIngredients);
 let results = [];
 // console.log(allRecipes);
 function saveLocalStorage() {
+  for (let i = 0; i < allRecipes.length; i++) {
+    let match = true;
+    for (let j = 0; j < allRecipes[i].ingredients.length; j++) {
+      if (myIngredients.includes(allRecipes[i].ingredients[j])) {
 
-
-for (let i = 0; i < allRecipes.length; i++) {
-  let match = true;
-  for (let j = 0; j < allRecipes[i].ingredients.length; j++) {
-    if (myIngredients.includes(allRecipes[i].ingredients[j])) {
-    } else {
-      match = false;
-      break;
+      } else {
+        match = false;
+        break;
+      }
     }
-    
-  }
-  if (match === true) {
+    if (match === true) {
       results.push(allRecipes[i]);
 
     }
-}
- console.log(results);
+  }
+  localStorage.clear();
+  let stringData = JSON.stringify(results);
+  localStorage.setItem('results', stringData);
+ 
 }

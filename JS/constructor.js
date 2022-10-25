@@ -30,7 +30,7 @@ let chickenTikkaMasala = new Recipe(
 let paprikaPorkTenderloin = new Recipe(
   'Paprika Pork Tenderloin',
   'aprikaPorkTenderloin',
-  ['potatoes', 'lemon', 'oregano', 'green beans', 'pork', 'paprika', 'feta cheese', 'basil', 'capers'],
+  ['potato', 'lemon', 'oregano', 'green beans', 'pork', 'paprika', 'feta cheese', 'basil', 'capers'],
   ['12 oz potatoes', '1 lemon', '1/8 oz oregano', '6 oz green beans', '2 (5 oz) pork tenderloins', '1 tsp paprika', '2 oz feta cheese', '1 1/4 oz lemon-basil caper sauce'],
   ['Preheat oven to 425 degrees. Halve yellow potatoes lengthwise. Lay flat and cut lengthwise into wedges, about ¼ inch thick. Zest whole lemon over large bowl (reserve zested lemon for another use). De-stem oregano; finely chop leaves. Trim stem ends off green beans. Halve widthwise.', 'Place potatoes in bowl with lemon zest. Drizzle with 1 tablespoon cooking oil. Season with about half the oregano (reserve remaining oregano for another use), salt, and pepper. Toss to coat. Spread potatoes out in a single layer on a lightly oiled, foil-lined baking sheet. Roast 14-16 minutes, or until fork-tender, stirring halfway through.', 'Pat pork tenderloins dry with paper towels. Season with paprika and orange spice blend, salt, and pepper. Heat 1 tablespoon cooking oil in a large oven-safe sauté pan over medium-high heat. Add pork to hot pan. Sear 3-5 minutes, or until lightly browned on all sides. Transfer pan to oven. Roast 8-12 minutes, or until fully cooked. Transfer pork to a cutting board. Let rest at least 3 minutes.', 'Heat 1 tablespoon cooking oil in a medium sauté pan over medium-high heat. Add green beans to hot pan. Season with salt and pepper. Cook 4-5 minutes, or until tender, stirring occasionally. Remove pan from heat. Add feta cheese to pan. Toss to combine.', 'Cut pork tenderloins into 6-8 slices each. Divide feta green beans and roasted potatoes between plates. Shingle citrusy paprika-spiced pork alongside. Drizzle lemon-basil caper sauce over pork.'],
   2,
@@ -40,7 +40,7 @@ let paprikaPorkTenderloin = new Recipe(
 let mongolianBeef = new Recipe(
   'Mongolian Beef',
   'mongolianBeef',
-  ['flank steak', 'cornstarch', 'ginger', 'garlic', 'soy sauce', 'brown sugar', 'scallions'],
+  ['flank steak', 'cornstarch', 'ginger', 'garlic', 'soy sauce', 'brown sugar', 'green onion'],
   ['1 pound flank steak', '1/4 cup cornstarch', '1/4 cup oil', '2 tsp fresh minced ginger', '1 tbsp minced garlic', '1/3 cup soy sauce', '1/3 cup water', '1/2 cup brown sugar', '4 scallions'],
   ['Slice the flank steak against the grain in 1/4-inch thick pieces and add it to a ziploc bag with the cornstarch.', 'Press the steak around in the bag making sure each piece is fully coated with cornstarch and leave it to sit.', 'Add the oil to a large frying pan and heat on medium high heat.', 'Add the steak, shaking off any excess corn starch, to the pan in a single layer and cook on each side for 1 minute. Remove when done.', 'Add the ginger and garlic to the pan and sauté for 10-15 seconds.', 'Add the soy sauce, water and dark brown sugar to the pan and let it come to a boil.', 'Add the steak back in and let the sauce thicken for 20-30 seconds.', 'The cornstarch we used on the steak should thicken the sauce, if you find it is not thickening enough add 1 tablespoon of cornstarch to 1 tablespoon of cold water and stir to dissolve the cornstarch and add it to the pan.', 'Add the scallions, stir to combine everything, and cook for a final 20-30 seconds.'],
   4,
@@ -60,7 +60,7 @@ let garlicButterChicken = new Recipe(
 let spaghetti = new Recipe(
   'Spaghetti',
   'spaghetti',
-  ['ground beef', 'onion', 'tomato sauce', 'tomato paste', 'Italian seasoning', 'parsley', 'garlic powder', 'red pepper', 'Worcestershire sauce', 'spaghetti noodles'],
+  ['ground beef', 'onion', 'tomato sauce', 'tomato paste', 'seasoning', 'parsley', 'garlic powder', 'red pepper', 'Worcestershire sauce', 'spaghetti noodles'],
   ['1 lb ground beef', 'salt and black pepper', '1 medium onion, chopped', '15 oz tomato sauce', '6 oz tomato paste', '1/2 tsp Italian seasoning', '1 tbsp parsley', '1 tsp garlic powder', 'crushed red pepper flakes', '1 tbsp Worcestershire sauce', '1 tbsp granulated sugar', '1 cup water', '1/4 cup fresh basil leaves (optional)', 'spaghetti noodles'],
   ['Season ground beef with salt and pepper.', 'In a large skillet, add the beef and chopped onion and brown. Drain excess grease.', 'Add tomato sauce, tomato paste, Italian seasoning, parsley, garlic powder, crushed red pepper, worcestershire, and sugar to the skillet.', 'Stir well to combine and bring to a boil. Add water and stir well.', 'Reduce heat and simmer for 30 minutes. Add chopped basil before serving, if desired.'],
   5,
@@ -119,7 +119,7 @@ let sloppyJoes = new Recipe(
 let chowMein = new Recipe(
   'Chow Mein',
   'chowMein',
-  ['chicken breast', 'oil', 'chow mein noodle', 'cabbage', 'carrot', 'green onions', 'garlic cloves', 'oyster sauce', 'soy sauce', 'chicken broth', 'cornstarch', 'sugar', 'sesame oil'],
+  ['chicken breast', 'chow mein noodle', 'cabbage', 'carrot', 'green onions', 'garlic', 'oyster sauce', 'soy sauce', 'chicken broth', 'cornstarch', 'sugar', 'sesame oil'],
   ['1 lb chicken breast, boneless, skinless', '3 tbsp oil', '12 oz chow mein noodles, (uncooked noodles)', '2 cups cabbage', '1 large carrot, julienned', '1/2 batch green onions', '2 garlic cloves', '6 tbsp oyster sauce', '3 tbsp soy sauce', '3 tbsp light sesame oil, (not toasted)', '1/2 cup chicken broth', '1 tbsp cornstarch', '1 tbsp granulated sugar'],
   ['In a small mixing bowl, use a whisk to combine oyster sauce, granulated sugar, sesame oil, soy sauce, chicken broth and cornstarch. Set aside. Cook your noodles according to package instructions then drain, rinse with cold water and set aside. Heat a large wok or pan with olive oil over medium-heat. Cut your chicken breasts into bite-sized strips and cook them in the oil until golden brown. Remove strips and set aside. Add carrots, cabbage and pressed garlic and saute for a few minutes until veggies are slightly softened and the cabbage is a bit translucent. Add chicken and noodles back into the pan. Pour sauce over the top and continue cooking all the ingredients together for another 2 minutes. Garnish your chow mein with chopped green onions and serve the noodles straight from the pan and piping hot!'],
   6,
@@ -139,7 +139,7 @@ let friedRice = new Recipe(
 let bakedSalmon = new Recipe(
   'Lemon Garlic Salmon',
   'bakedSalmon',
-  ['salmon', 'garlic', 'lemon', 'salt', 'pepper', 'butter', 'italian seasoning'],
+  ['salmon', 'garlic', 'lemon', 'butter', 'seasoning'],
   ['1.5 pounds salmon fillet', '1 tablespoon olive oil', '3 cloves garlic finely minced', '1/2 lemon juice only', '1 teaspoon Italian seasoning', '1/4 teaspoon salt', 'black pepper to taste', '2 tablespoons butter diced'],
   ['Prep: Preheat oven to 400°F. Place a large piece of aluminum foil in a large rimmed baking dish that will comfortably hold all of your salmon (the baking dish is to catch any drippings - way easier to clean than your oven!). Season fish: Lightly grease the foil with olive oil. Place the salmon fillets on top (they can be close together if using individual fillets, just not on top of each other). Drizzle with 1 tablespoon olive oil and evenly scatter garlic on top. Drizzle with lemon juice and sprinkle with Italian seasoning, salt and pepper. Dot with butter. Seal foil over salmon. Bake: Bake for 10-15 minutes (depending on the thickness of your fillets) or until salmon flakes easily. Serve immediately.'],
   4,
@@ -149,7 +149,7 @@ let bakedSalmon = new Recipe(
 let panFriedPotato = new Recipe(
   'Pan Fried Potato Wedges',
   'panFriedPotato',
-  ['potatoes', 'olive oil', 'water', 'turmeric', 'garlic powder', 'cayenne pepper'],
+  ['potato', 'olive oil', 'water', 'turmeric', 'garlic powder', 'cayenne pepper'],
   ['4 large potatoes', '3 tbs olive oil', '1/4 cup water', '1/2 tsp turmeric', '1 tsp garlic powder', 'Salt & pepper to taste', '1 tsp cayenne pepper'],
   ['Wash and peel(optional) the potatoes.Cut them into wedges and add them into a non-stick pan with a little bit of water and oil.Add salt , pepper and all the other spices.Close the pan and cook until all the water is finished and potatoes will start browning on their own for about 5 minutes.Fry turning sides until all the potatoes are fully cooked and browned. That will take about 10 minutes.'],
   2,
@@ -159,7 +159,7 @@ let panFriedPotato = new Recipe(
 let macNcheese = new Recipe(
   'Macaroni and Cheese',
   'macNcheese',
-  ['macaroni', 'butter', 'flour', 'salt', 'milk', 'cheddar cheese', 'pepper'],
+  ['macaroni', 'butter', 'flour', 'milk', 'cheddar cheese', 'pepper'],
   ['1 (8 ounce) box elbow macaroni', '1/4 cup butter', '1/4 cup all-purpose flour', '1/2 teaspoon salt', 'ground black pepper to taste', '2 cups milk', '2 cups shredded Cheddar cheese'],
   ['Bring a large pot of lightly salted water to a boil. Cook elbow macaroni in the boiling water, stirring occasionally until cooked through but firm to the bite, 8 minutes. At the same time, melt butter in a saucepan over medium heat. Add flour, salt, and pepper and stir until smooth, about 5 minutes. Pour in milk slowly, while stirring continuously. Continue to cook and stir until mixture is smooth and bubbling, about 5 minutes, making sure the milk doesn\'t burn. Add Cheddar cheese and stir until melted, 2 to 4 minutes.Drain macaroni and fold into cheese sauce until coated.'],
   4,
@@ -209,7 +209,7 @@ let chickenStirFry = new Recipe(
 let vegetarianSkilletEnchiladas = new Recipe(
   'Vegetarian Skillet Enchiladas',
   'vegetarianSkilletEnchiladas',
-  ['onion', 'sweet pepper', 'garlic', 'black beans', 'enchilada sauce', 'corn', 'chili powder', 'cumin', 'tortillas', 'cheese'],
+  ['onion', 'peppers', 'garlic', 'black beans', 'enchilada sauce', 'corn', 'chili powder', 'cumin', 'tortillas', 'cheese'],
   ['1 tbsp oil', '1 medium onion, chopped', '1 medium sweet red pepper, chopped', '2 garlic cloves, minced', '15 oz black beans, rinsed and drained', '10 oz enchilada sauce', '1 cup frozen corn', '2 tsp chili powder', '1/2 tsp ground cumin', '1/8 tsp pepper', '8 tortillas (6 inches), cut into 1/2-inch strips', '1 cup shredded cheese blend', 'Chopped fresh cilantro (optional)', 'Sliced avocado (optional)', 'Sliced radishes (optional)', 'Sour cream (optional)', 'Lime wedges (optional)'],
   ['Preheat oven to 400°. Heat oil in a 10-in. cast-iron or other ovenproof skillet over medium-high heat. Add onion and pepper; cook and stir until tender, 2-3 minutes. Add garlic; cook 1 minute longer. Stir in beans, enchilada sauce, corn, chili powder, cumin and pepper. Stir in tortilla strips.', 'Bring to a boil. Reduce heat; simmer, uncovered, until tortilla strips are softened, 3-5 minutes. Sprinkle with cheese. Bake, uncovered, until sauce is bubbly and cheese is melted, 3-5 minutes. If desired, garnish with optional ingredients.'],
   4,
@@ -219,7 +219,7 @@ let vegetarianSkilletEnchiladas = new Recipe(
 let albondigas = new Recipe(
   'Albondigas',
   'albondigas',
-  ['carrots', 'potatoes', 'ground beef', 'rice', 'onion', 'milk', 'cilantro', 'beef bouillon'],
+  ['carrots', 'potato', 'ground beef', 'rice', 'onion', 'milk', 'cilantro', 'beef bouillon'],
   ['1 quart water', '4 carrots, sliced', '2 small potatoes , peeled and diced', '1 medium onion, diced', '1 1/2 cups salsa, medium or hot', '2 beef bouillon cubes', '1 1/2 pounds ground beef', '1/3 cup seasoned dry bread crumbs', '1/3 cup milk', '1 tablespoon chopped fresh cilantro'],
   ['Bring water, carrots, potatoes, onion, salsa, and bouillon cubes to a boil in a large stockpot. Reduce heat and cook, stirring occasionally, at a medium simmer for 10 minutes. Mix together beef, bread crumbs, and milk in a bowl. Form into 1-inch meatballs and drop into broth. Bring soup to a boil, then reduce heat to medium-low. Cover and cook until meatballs are no longer pink in the center and vegetables are tender, about 20 minutes. Garnish with sprinkled cilantro.'],
   6,
@@ -239,7 +239,7 @@ let spamMusubi = new Recipe(
 let redPozole = new Recipe(
   'Chicken Pozole Rojo',
   'pozoleRojo',
-  ['chicken breast', 'onion', 'garlic', 'guajillo chiles', 'Hominy', 'cabbage', 'lime'],
+  ['chicken breast', 'onion', 'garlic', 'guajillo chile', 'hominy', 'cabbage', 'lime'],
   ['10 cups water', '2 pounds chicken breast', '1 small white onion, quartered', '2 garlic cloves, peeled', '2 teaspoons salt', '8 guajillo chiles, rinsed, stemmed, and seeded', '3 (15.5-ounce) cans White Hominy, rinsed and drained', 'Shredded cabbage', 'Radish slices', 'Limes', 'Diced onion', 'Dried oregano'],
   ['In a 6-quart pot place chicken, onion, garlic, and 1 teaspoon salt and bring to a boil and then lower heat to medium-low for 20 minutes or until chicken is no longer pink. In a large bowl filled with hot water add dried chiles until the chiles have softened about 10 to 15 minutes. Discard liquid. Shred the chicken into small pieces. In a blender combine 1 cup of the cooked chicken broth with onions, garlic, and softened chiles with 1 teaspoon of salt and blend. Reserve the remaining chicken broth. Add the shredded chicken, blended sauce, and White Hominy to the pot with reserved broth and bring to a boil. Lower the heat and simmer for 20 minutes. If necessary, season with salt. Spoon pozole into soup bowls. Let your guests add the garnishes to suit their own taste.'],
   10,
