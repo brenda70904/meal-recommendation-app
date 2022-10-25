@@ -7,6 +7,7 @@ function renderResults() {
   let div = document.getElementById('grid');
   for (let i = 0; i < result.length; i++) {
     let article = document.createElement('article');
+    article.setAttribute('id', result[i].name);
     let title = document.createElement('p');
     title.innerText = result[i].name;
     let div1 = document.createElement('div');
@@ -29,3 +30,15 @@ function renderResults() {
   }
 }
 renderResults();
+
+let article = document.querySelectorAll('article');
+// console.log(typeof article);
+function saveToLocalStorage(event){
+  let description = event.target.id;
+  console.log(description);
+  let stringData = JSON.stringify(description);
+  localStorage.setItem('description', stringData);
+  window.location.href = "specific.html";
+}
+
+article.addEventListener('click', saveToLocalStorage);
