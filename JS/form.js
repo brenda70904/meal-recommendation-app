@@ -29,6 +29,7 @@ for (let i = 0; i < allProtein.length; i++) {
   let li = document.createElement('li');
   let input = document.createElement('input');
   let label = document.createElement('label');
+  input.setAttribute('value', allProtein[i]);
   input.type = 'checkbox';
   input.setAttribute('id', allProtein[i]);
   label.setAttribute('for', allProtein[i]);
@@ -42,6 +43,7 @@ for (let i = 0; i < allVegFruit.length; i++) {
   let li = document.createElement('li');
   let input = document.createElement('input');
   let label = document.createElement('label');
+  input.setAttribute('value', allVegFruit[i]);
   input.type = 'checkbox';
   input.setAttribute('id', allVegFruit[i]);
   label.setAttribute('for', allVegFruit[i]);
@@ -55,6 +57,7 @@ for (let i = 0; i < allDairy.length; i++) {
   let li = document.createElement('li');
   let input = document.createElement('input');
   let label = document.createElement('label');
+  input.setAttribute('value', allDairy[i]);
   input.type = 'checkbox';
   input.setAttribute('id', allDairy[i]);
   label.setAttribute('for', allDairy[i]);
@@ -68,6 +71,7 @@ for (let i = 0; i < allCarbs.length; i++) {
   let li = document.createElement('li');
   let input = document.createElement('input');
   let label = document.createElement('label');
+  input.setAttribute('value', allCarbs[i]);
   input.type = 'checkbox';
   input.setAttribute('id', allCarbs[i]);
   label.setAttribute('for', allCarbs[i]);
@@ -81,6 +85,7 @@ for (let i = 0; i < allOther.length; i++) {
   let li = document.createElement('li');
   let input = document.createElement('input');
   let label = document.createElement('label');
+  input.setAttribute('value', allOther[i]);
   input.type = 'checkbox';
   input.setAttribute('id', allOther[i]);
   label.setAttribute('for', allOther[i]);
