@@ -50,3 +50,69 @@
 .dropdown-check-list.visible #proteins {
   display: block;
 }
+
+
+.dropdown-check-list ul#vegetables {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.dropdown-check-list ul#vegetables li {
+  list-style: none;
+}
+
+.dropdown-check-list.visible #vegetables {
+  display: block;
+}
+
+.dropdown-check-list ul#dairy {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.dropdown-check-list ul#dairy li {
+  list-style: none;
+}
+
+.dropdown-check-list.visible #dairy {
+  display: block;
+}
+
+
+.dropdown-check-list ul#carbs {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.dropdown-check-list ul#carbs li {
+  list-style: none;
+}
+
+.dropdown-check-list.visible #carbs {
+  display: block;
+}
+
+.dropdown-check-list ul#other {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.dropdown-check-list ul#other li {
+  list-style: none;
+}
+
+.dropdown-check-list.visible #other {
+  display: block;
+}
