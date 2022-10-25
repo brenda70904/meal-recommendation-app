@@ -9,8 +9,13 @@ function Recipe(name, fileName, ingredients, ingredientsDetail, direction, serve
   this.serves = serves;
   this.time = time;
   this.fileExtenstion = fileExtenstion;
-  this.src = `./Images/${this.fileName}.${fileExtenstion}`
+  this.src = `./Images/${this.fileName}.${fileExtenstion}`;
+  this.addToArray = function () {
+    allRecipes.push(this);
+  }
+  this.addToArray();
 }
+let allRecipes = [];
 
 let chickenTikkaMasala = new Recipe(
   'Chicken Tikka Masala',
@@ -242,31 +247,31 @@ let redPozole = new Recipe(
 );
 
 
-let allRecipe = [
-  chickenTikkaMasala,
-  paprikaPorkTenderloin,
-  mongolianBeef,
-  garlicButterChicken,
-  spaghetti,
-  fajitaVeggies,
-  porkStirFry,
-  meatloaf,
-  cornedBeefCabbage,
-  sloppyJoes,
-  chowMein,
-  friedRice,
-  bakedSalmon,
-  panFriedPotato,
-  macNcheese,
-  broccoliPestoPasta,
-  chickenTortillaSoup,
-  coconutCurryRamen,
-  chickenStirFry,
-  vegetarianSkilletEnchiladas,
-  albondigas,
-  spamMusubi,
-  redPozole
-]
+// 
+//   chickenTikkaMasala,
+//   paprikaPorkTenderloin,
+//   mongolianBeef,
+//   garlicButterChicken,
+//   spaghetti,
+//   fajitaVeggies,
+//   porkStirFry,
+//   meatloaf,
+//   cornedBeefCabbage,
+//   sloppyJoes,
+//   chowMein,
+//   friedRice,
+//   bakedSalmon,
+//   panFriedPotato,
+//   macNcheese,
+//   broccoliPestoPasta,
+//   chickenTortillaSoup,
+//   coconutCurryRamen,
+//   chickenStirFry,
+//   vegetarianSkilletEnchiladas,
+//   albondigas,
+//   spamMusubi,
+//   redPozole
+// 
 
 // for(let ingredient in spamMusubi.ingredients){
 // console.log(spamMusubi.ingredients);
