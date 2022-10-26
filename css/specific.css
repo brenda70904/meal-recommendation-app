@@ -2,21 +2,21 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0 auto;
   width: 100%;
   height: 100%;
 }
 
-header{
+header {
   display: flex;
   padding: 15px 0px;
-  align-items:flex-end;
+  align-items: flex-end;
   justify-content: space-between;
   background-color: rgb(236, 233, 233);
 }
 
-h1{
+h1 {
   font-size: 70px;
   padding-left: 20px;
   margin: 10px;
@@ -24,17 +24,17 @@ h1{
   font-family: 'Lobster', cursive;
 }
 
-nav{ 
+nav {
   min-width: 500px;
   padding-bottom: 15px;
   padding-right: 20px;
 }
 
-nav ul{
+nav ul {
   display: flex;
 }
 
-nav a{
+nav a {
   font-size: 30px;
   text-decoration: none;
   padding: 0 30px;
@@ -44,16 +44,16 @@ nav a{
   transition: 0.2s;
 }
 
-nav a:hover{
+nav a:hover {
   color: #eb682f;
   text-decoration: underline;
 }
 
-nav a:active{
+nav a:active {
   color: black;
 }
 
-main{
+main {
   max-width: 1000px;
   height: 90%;
   margin: auto;
@@ -63,56 +63,72 @@ main{
   margin-top: 2rem;
   margin-bottom: 9rem;
   /* border: 1px solid black;*/
-} 
-
-#imgAndList{
-  display: flex;
-  justify-content: space-around;
 }
 
-#imgAndList img{
+#imgAndList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#imgAndList img {
   height: 400px;
   width: 400px;
 
-  
+
   object-fit: cover;
   /* border: 1px solid black; */
 
 }
 
-#imgAndList ul{
-  border: 1px solid black;
+#imgAndList ul {
+  /* border: 1px solid black; */
   width: 500px;
   text-align: center;
   list-style-position: inside;
+  font-family: 'Patrick Hand', cursive;
 }
 
-ul li{
+h2 {
+  font-family: 'Amiri', serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+ul li {
   font-size: 20px;
   list-style-position: inside;
-  list-style: disc;
+  /* list-style: disc; */
+}
+
+main ul li {
+  line-height: 25px;
 }
 
 ol{
-  border: 1px solid black;
+  padding-top: 20px;
 }
 
-ol li{
+ol li {
+  padding: 5px;
+  list-style-type: decimal;
+  line-height: 25px;
   font-size: 20px;
+  font-family: 'Amiri', serif;
 }
 
-footer{
+footer {
   text-align: center;
   /* border: 1px solid black; */
 }
 
-footer a{
+footer a {
   width: 100px;
   height: 100px;
   text-decoration: none;
 }
 
-.socialMedia{
+.socialMedia {
   width: 50px;
   height: 50px;
   color: black;
@@ -121,15 +137,15 @@ footer a{
   transition: 0.2s;
 }
 
-.socialMedia:hover{
+.socialMedia:hover {
   opacity: 0.5;
 }
 
-.socialMedia:active{
+.socialMedia:active {
   opacity: 1;
 }
 
-footer p{
+footer p {
   margin-bottom: 10px;
 }
 
