@@ -4,7 +4,6 @@
 }
 
 body{
-  /* max-width: 1000px; */
   margin: 0 auto;
   width: 100%;
   height: 100%;
@@ -13,22 +12,23 @@ body{
 header{
   display: flex;
   padding: 15px 0px;
-  align-items: center;
+  align-items:flex-end;
   justify-content: space-between;
   background-color: rgb(236, 233, 233);
-  /* border: 1px solid black; */
 }
 
 h1{
-  /* font-family: 'Irish Grover'; */
-  font-size: 50px;
-  padding: 0px;
+  font-size: 70px;
+  padding-left: 20px;
   margin: 10px;
   min-width: 400px;
+  font-family: 'Lobster', cursive;
 }
 
 nav{ 
   min-width: 500px;
+  padding-bottom: 15px;
+  padding-right: 20px;
 }
 
 nav ul{
@@ -41,6 +41,7 @@ nav a{
   padding: 0 30px;
   color: black;
   cursor: pointer;
+  font-family: 'Lobster', cursive;
   transition: 0.2s;
 }
 
@@ -54,16 +55,20 @@ nav a:active{
 }
 
 main{
-  max-width: 70%;
+  max-width: 60%;
   height: 90%;
   margin: auto;
-  display: flex;
   align-items: center;
-  justify-content: space-around;
   margin-top: 2rem;
   margin-bottom: 9rem;
-  /* border: 1px solid black;*/
 } 
+
+.flexSection{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Amiri', serif;
+  align-items: center;
+}
 
 main img{
   height: 450px;
@@ -76,14 +81,15 @@ main img{
 
 main div{
   text-align: center;
-  min-width: 400px;
+  width: 450px;
   margin: 0 20px;
 }
 
 main p{
-  font-size: 20px;
+  font-size: 25px;
   margin: 20px;
 }
+
 main p:nth-child(3){
   margin-bottom: 50px;
 }
@@ -91,6 +97,9 @@ main p:nth-child(3){
 cite{
   color: #eb682f;
   font-weight: bold;
+  font-size: 30px;
+  font-family: 'Amiri', serif;
+  text-shadow: black 2px 2px 2px;
 }
 
 #formButton{
@@ -102,6 +111,7 @@ cite{
   text-align: center;
   background-color: #eb682f;
   text-decoration: none;
+  font-family: 'Amiri', serif;
   color: black;
   cursor: pointer;
   transition: 0.2s;
@@ -116,6 +126,13 @@ cite{
 #formButton:active{
   color: black;
   border: 1px solid black;
+}
+
+#line{
+  background-image: linear-gradient(to right, white, grey, white);
+  height: 2px;
+  width: 100%;
+  margin: 40px 0;
 }
 
 footer{

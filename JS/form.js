@@ -5,8 +5,9 @@ var list2 = document.getElementById('list2');
 var list3 = document.getElementById('list3');
 var list4 = document.getElementById('list4');
 var list5 = document.getElementById('list5');
+var list6 = document.getElementById('list6');
 
-let dropList = [list1, list2, list3, list4, list5];
+let dropList = [list1, list2, list3, list4, list5, list6];
 for (let i = 0; i < dropList.length; i++) {
   dropList[i].getElementsByClassName('anchor')[0].onclick = function (evt) {
     if (dropList[i].classList.contains('visible'))
@@ -24,16 +25,18 @@ let allVegFruit = ['garlic', 'ginger', 'onion', 'green onion', 'tomato', 'potato
 
 let allDairy = ['feta cheese', 'parmesan cheese', 'cheddar cheese', 'cheese blend', 'milk', 'cream', 'butter','coconut milk', 'yogurt'].sort();
 let allCarbs = ['ramen noodles', 'spaghetti noodles', 'chow mein noodles', 'macaroni noodles', 'bread crumbs', 'rice', 'tortillas', 'bread'].sort();
-let allOther = ['turmeric', 'cumin', 'brown sugar', 'cashews', 'sugar', 'sesame oil', 'cornstarch', 'oregano', 'paprika', 'parsley', 'rice vinegar', 'capers', 'pine nuts', 'red curry paste', 'soy sauce', 'oyster sauce', 'garlic powder', 'balsamic vinegar', 'ketchup', 'mustard', 'hoisin sauce', 'red chili flakes', 'beef bouillon', 'stock', 'honey', 'enchilada sauce','yellow curry powder', 'cayenne pepper', 'flour', 'chili powder', 'baking soda'].sort();
+let allSpices = ['turmeric', 'cumin', 'oregano', 'paprika', 'parsley', 'garlic powder',  'red chili flakes', 'yellow curry powder', 'cayenne pepper', 'chili powder'].sort();
+let allOther = ['brown sugar', 'cashews', 'sugar', 'sesame oil', 'cornstarch', 'rice vinegar', 'capers', 'pine nuts', 'red curry paste', 'soy sauce', 'oyster sauce', 'balsamic vinegar', 'ketchup', 'mustard', 'hoisin sauce', 'beef bouillon', 'stock', 'honey', 'enchilada sauce', 'flour', 'baking soda'].sort();
 
 let listOne = document.getElementById('proteins');
 let listTwo = document.getElementById('vegetables');
 let listThree = document.getElementById('dairy');
 let listFour = document.getElementById('carbs');
-let listFive = document.getElementById('other');
+let listFive = document.getElementById('spices');
+let listSix = document.getElementById('other');
 
-let options = [allProtein, allVegFruit, allDairy, allCarbs, allOther];
-let allList = [listOne, listTwo, listThree, listFour, listFive];
+let options = [allProtein, allVegFruit, allDairy, allCarbs, allSpices, allOther];
+let allList = [listOne, listTwo, listThree, listFour, listFive, listSix];
 
 for (let i = 0; i < options.length; i++) {
   for (let j = 0; j < options[i].length; j++) {
@@ -51,14 +54,12 @@ for (let i = 0; i < options.length; i++) {
   }
 }
 
-
-
 let cb = document.querySelectorAll('input');
 let myIngredients = [];
 
 function getMyIngredients(event) {
   event.preventDefault();
-  for (let i = 0; i < allCarbs.length + allDairy.length + allOther.length + allProtein.length + allVegFruit.length; i++) {
+  for (let i = 0; i < allCarbs.length + allDairy.length + allOther.length + allProtein.length + allVegFruit.length + allSpices.length; i++) {
     if (cb[i].checked === true) {
       myIngredients.push(cb[i].id);
     }
@@ -69,7 +70,6 @@ function getMyIngredients(event) {
 
 let submit = document.getElementById('submit');
 submit.addEventListener('click', getMyIngredients);
-
 let results = [];
 function saveLocalStorage() {
   for (let i = 0; i < allRecipes.length; i++) {
