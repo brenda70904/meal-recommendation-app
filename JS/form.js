@@ -50,7 +50,7 @@ let allVegFruit = ['garlic', 'ginger', 'onion', 'green onion', 'tomato', 'potato
 
 let allDairy = ['feta cheese', 'parmesan cheese', 'cheddar cheese', 'cheese blend', 'milk', 'cream', 'butter','coconut milk', 'yogurt'].sort();
 let allCarbs = ['ramen noodles', 'spaghetti noodles', 'chow mein noodles', 'macaroni noodles', 'bread crumbs', 'rice', 'tortillas', 'bread'].sort();
-let allOther = ['turmeric', 'cumin', 'brown sugar', 'cashews', 'sugar', 'sesame oil', 'cornstarch', 'oregano', 'paprika', 'parsley', 'rice vinegar', 'capers', 'pine nuts', 'soy sauce', 'red curry paste', 'soy sauce', 'oyster sauce', 'garlic powder', 'balsamic vinegar', 'ketchup', 'mustard', 'hoisin sauce', 'red chili flakes', 'beef bouillon', 'stock', 'honey', 'enchilada sauce','yellow curry powder', 'cayenne pepper', 'flour', 'chili powder', 'baking soda'].sort();
+let allOther = ['turmeric', 'cumin', 'brown sugar', 'cashews', 'sugar', 'sesame oil', 'cornstarch', 'oregano', 'paprika', 'parsley', 'rice vinegar', 'capers', 'pine nuts', 'red curry paste', 'soy sauce', 'oyster sauce', 'garlic powder', 'balsamic vinegar', 'ketchup', 'mustard', 'hoisin sauce', 'red chili flakes', 'beef bouillon', 'stock', 'honey', 'enchilada sauce','yellow curry powder', 'cayenne pepper', 'flour', 'chili powder', 'baking soda'].sort();
 
 let listOne = document.getElementById('proteins');
 let listTwo = document.getElementById('vegetables');
