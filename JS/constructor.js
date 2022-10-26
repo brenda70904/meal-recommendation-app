@@ -22,6 +22,7 @@ let chickenTikkaMasala = new Recipe(
   'Chicken Tikka Masala',
   'chickenTikkaMasala',
   ['chicken thighs', 'yogurt', 'garlic', 'butter', 'ginger', 'turmeric', 'cumin', 'onion', 'tomato', 'cream', 'brown sugar'],
+
   ['28 oz boneless & skinless chicken thighs cut into bite-sized pieces', '1 cup plain yogurt', '1 1/2 tbsp minced garlic', '1 tbsp ginger', '2 tsp garam masala', '1 tsp turmeric', '1 tsp ground cumin', '1 tsp Kashmiri chili (or 1/2 tsp ground red chili powder)', '1 tsp of salt', '2 tsp of vegetable/canola oil', '2 tbsp butter', '2 small onions finely diced', '1 1/2 tbsp garlic finely grated', '1 tbsp ginger finely grated', '1 1/2 tsp garam masala', '1 1/2 tsp ground cumin', '1 tsp turmeric powder', '1 tsp ground coriander', '14 oz tomato puree', '1 tsp Kashmiri chili (optional)', '1 tsp ground red chili powder', '1 tsp salt', '1 1/4 cups of heavy cream', '1 tsp brown sugar', '1/4 cup water (if needed)', '4 tbsp fresh cilantro or coriander to garnish'],
   ['In a bowl, combine chicken with all of the ingredients for the chicken marinade; let marinate for 10 minutes to an hour (or overnight if time allows).', 'Heat oil in a large skillet or pot over medium-high heat. When sizzling, add chicken pieces in batches of two or three. Fry until browned for only 3 minutes on each side. Set aside and keep warm.', 'Melt the butter in the same pan. Fry the onions until soft (about 3 minutes) while scraping up any browned bits stuck on the bottom of the pan. ', 'Add garlic and ginger and sauté for 1 minute until fragrant, then add garam masala, cumin, turmeric and coriander. Fry for about 20 seconds until fragrant, while stirring occasionally.', 'Pour in the tomato puree, chili powders and salt. Let simmer for about 10-15 minutes, stirring occasionally until sauce thickens and becomes a deep brown red colour.', 'Stir the cream and sugar through the sauce. Add the chicken and its juices back into the pan and cook for an additional 8-10 minutes until chicken is cooked through and the sauce is thick and bubbling.', 'Garnish with cilantro (coriander) and serve with hot garlic butter rice and fresh homemade Naan bread.'],
   5,
@@ -248,34 +249,3 @@ let redPozole = new Recipe(
   10,
   45
 );
-// console.log(allRecipes);
-
-// 
-//   chickenTikkaMasala,
-//   paprikaPorkTenderloin,
-//   mongolianBeef,
-//   garlicButterChicken,
-//   spaghetti,
-//   fajitaVeggies,
-//   porkStirFry,
-//   meatloaf,
-//   cornedBeefCabbage,
-//   sloppyJoes,
-//   chowMein,
-//   friedRice,
-//   bakedSalmon,
-//   panFriedPotato,
-//   macNcheese,
-//   broccoliPestoPasta,
-//   chickenTortillaSoup,
-//   coconutCurryRamen,
-//   chickenStirFry,
-//   vegetarianSkilletEnchiladas,
-//   albondigas,
-//   spamMusubi,
-//   redPozole
-// 
-
-// for(let ingredient in spamMusubi.ingredients){
-// console.log(spamMusubi.ingredients);
-// }
