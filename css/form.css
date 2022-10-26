@@ -45,7 +45,7 @@ nav a{
 }
 
 nav a:hover{
-  color: rgb(233, 154, 63);
+  color: #eb682f;
   text-decoration: underline;
 }
 
@@ -173,20 +173,19 @@ form{
   width: 250px;
   font-size: 30px;
   padding: 5px 0;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 10px;
   cursor: pointer;
   background-color: #eb682f;
+  box-shadow: 1px 1px 3px;
   transition: 0.2s;
 }
 
 #submit:hover{
-  border: 2px solid white;
   color: white;
 }
 
 #submit:active{
-  border: 2px solid black;
   color: black;
 }
 

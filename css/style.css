@@ -45,7 +45,7 @@ nav a{
 }
 
 nav a:hover{
-  color: rgb(233, 154, 63);
+  color: #eb682f;
   text-decoration: underline;
 }
 
@@ -69,16 +69,15 @@ main img{
   height: 450px;
   width: 450px;
   object-fit: cover;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 50%;
-  margin: 100px 30px 100px 0;
+  box-shadow: 2px 2px 5px;
 }
 
 main div{
   text-align: center;
   min-width: 400px;
   margin: 0 20px;
-  background-color: red;
 }
 
 main p{
@@ -106,6 +105,7 @@ cite{
   color: black;
   cursor: pointer;
   transition: 0.2s;
+  box-shadow: 1px 1px 3px;
 }
 
 #formButton:hover{
