@@ -57,6 +57,7 @@ nav a:active{
   height: 400px;
   width: 400px;
   border: 1px solid black;
+  object-fit: cover;
 }
 
 #imgAndList ul{

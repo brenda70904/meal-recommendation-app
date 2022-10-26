@@ -1,21 +1,77 @@
-form{
-  display: flex;
-  align-items: flex-start;
+* {
+  box-sizing: border-box;
 }
 
-.dropdown-check-list {
+body{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+h1{
+  font-family: 'Irish Grover';
+  font-size: 50px;
+  padding: 0px;
+  margin: 10px;
+  min-width: 400px;
+}
+
+nav{ 
+  min-width: 500px;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav a{
+  font-size: 30px;
+  text-decoration: none;
+  padding: 0 30px;
+  color: black;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+nav a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+nav a:active{
+  color: black;
+}
+
+#dropdownSection{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.dropdown-check-list{
   display: inline-block;
 }
 
-.dropdown-check-list .anchor {
+.anchor{
   position: relative;
   cursor: pointer;
   display: inline-block;
-  padding: 5px 50px 5px 10px;
-  border: 1px solid #ccc;
+  padding: 5px 30px 5px 5px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 190px;
+  text-align: center;
 }
 
-.dropdown-check-list .anchor:after {
+.anchor:after {
   position: absolute;
   content: "";
   border-left: 2px solid black;
@@ -30,93 +86,103 @@ form{
   transform: rotate(-135deg);
 }
 
-.dropdown-check-list .anchor:active:after {
+.anchor:active:after {
   right: 8px;
   top: 21%;
 }
 
-.dropdown-check-list ul#proteins {
+.dropdown-check-list ul {
   padding: 2px;
   display: none;
   margin: 0;
-  border: 1px solid #ccc;
+  border: 1px solid grey;
+  border-radius: 5px;
   border-top: none;
 }
 
-.dropdown-check-list ul#proteins li {
+.dropdown-check-list li {
   list-style: none;
+  font-size: 19px;
 }
 
-.dropdown-check-list.visible .anchor {
+/* .dropdown-check-list.visible .anchor {
   color: #0094ff;
-}
+} */
 
 .dropdown-check-list.visible #proteins {
   display: block;
-}
-
-
-.dropdown-check-list ul#vegetables {
-  padding: 2px;
-  display: none;
-  margin: 0;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-
-.dropdown-check-list ul#vegetables li {
-  list-style: none;
 }
 
 .dropdown-check-list.visible #vegetables {
   display: block;
 }
 
-.dropdown-check-list ul#dairy {
-  padding: 2px;
-  display: none;
-  margin: 0;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-
-.dropdown-check-list ul#dairy li {
-  list-style: none;
-}
-
 .dropdown-check-list.visible #dairy {
   display: block;
-}
-
-
-.dropdown-check-list ul#carbs {
-  padding: 2px;
-  display: none;
-  margin: 0;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-
-.dropdown-check-list ul#carbs li {
-  list-style: none;
 }
 
 .dropdown-check-list.visible #carbs {
   display: block;
 }
 
-.dropdown-check-list ul#other {
-  padding: 2px;
-  display: none;
-  margin: 0;
-  border: 1px solid #ccc;
-  border-top: none;
-}
-
-.dropdown-check-list ul#other li {
-  list-style: none;
-}
-
 .dropdown-check-list.visible #other {
   display: block;
+}
+
+#buttonSection{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+#submit{
+  width: 250px;
+  font-size: 30px;
+  padding: 5px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#submit:hover{
+  border: 2px solid red;
+  color: red;
+}
+
+#submit:active{
+  border: 2px solid black;
+  color: black;
+}
+
+footer{
+  text-align: center;
+  border: 1px solid black;
+}
+
+footer a{
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+}
+
+.socialMedia{
+  width: 50px;
+  height: 50px;
+  color: black;
+  cursor: pointer;
+  margin: 20px;
+  transition: 0.2s;
+}
+
+.socialMedia:hover{
+  opacity: 0.5;
+}
+
+.socialMedia:active{
+  opacity: 1;
+}
+
+footer p{
+  margin-bottom: 10px;
 }
