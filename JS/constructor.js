@@ -4,6 +4,7 @@ function Recipe(name, fileName, ingredients, ingredientsDetail, direction, serve
   this.name = name;
   this.fileName = fileName;
   this.ingredients = ingredients;
+  this.ingredientsNeeded = ingredients;
   this.ingredientsDetail = ingredientsDetail;
   this.direction = direction;
   this.serves = serves;

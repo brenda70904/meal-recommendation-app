@@ -156,6 +156,13 @@ function saveLocalStorage() {
         break;
       }
     }
+    for (let j = 0; j < allRecipes[i].ingredientsNeeded.length; j) {
+      if (myIngredients.includes(allRecipes[i].ingredientsNeeded[j])) {
+        allRecipes[i].ingredientsNeeded = allRecipes[i].ingredientsNeeded.filter(e => e !== allRecipes[i].ingredientsNeeded[j]);
+      } else {
+        j++;
+      }
+    }
     if (match === true) {
       results.push(allRecipes[i]);
     }
@@ -163,4 +170,6 @@ function saveLocalStorage() {
   localStorage.clear();
   let stringData = JSON.stringify(results);
   localStorage.setItem('results', stringData);
+  let allRecipesData = JSON.stringify(allRecipes);
+  localStorage.setItem('allRecipes', allRecipesData);
 }
