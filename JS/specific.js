@@ -1,15 +1,11 @@
 'use strict'
 let description = JSON.parse(localStorage.getItem('description'));
-console.log(description)
-
 let cookThis = '';
   for (let i = 0; i < allRecipes.length; i++) {
     if (description === allRecipes[i].name) {
     cookThis = allRecipes[i];
     }
   }
-
-console.log(cookThis);// object
 
 let image = document.querySelector('img');
 image.src = cookThis.src;
