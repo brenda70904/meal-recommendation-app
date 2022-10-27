@@ -114,7 +114,7 @@ let sloppyJoes = new Recipe(
   'sloppyJoes',
   ['ground beef', 'onion', 'peppers', 'ketchup', 'brown sugar', 'mustard', 'garlic powder', 'bread'],
   ['1 lb ground beef', '1/4 cup chopped onion', '1/4 cup chopped bell pepper', '3/4 cup ketchup', '1 tbsp brown sugar', '1 tsp mustard', '1/2 tsp garlic powder', 'salt', 'black pepper', '6 buns'],
-  ['Heat a large skillet over medium heat. Cook and stir lean ground beef in the hot skillet until some of the fat starts to render, 3 to 4 minutes. Add onion and bell pepper; continue to cook until vegetables have softened and beef is cooked through, 3 to 5 more minutes.', 'Stir in ketchup, brown sugar, mustard, and garlic powder; season with salt and pepper. Reduce heat to low and simmer for 20 to 30 minutes.', 'Divide meat mixture evenly among hamburger buns.'],
+  ['Heat a large skillet over medium heat. Cook and stir lean ground beef in the hot skillet until some of the fat starts to render, 3 to 4 minutes.', 'Add onion and bell pepper; continue to cook until vegetables have softened and beef is cooked through, 3 to 5 more minutes.', 'Stir in ketchup, brown sugar, mustard, and garlic powder; season with salt and pepper.', 'Reduce heat to low and simmer for 20 to 30 minutes.', 'Divide meat mixture evenly among hamburger buns.'],
   6,
   35
 );
@@ -124,7 +124,7 @@ let chowMein = new Recipe(
   'chowMein',
   ['chicken breast', 'chow mein noodles', 'cabbage', 'carrot', 'green onion', 'garlic', 'oyster sauce', 'soy sauce', 'stock', 'cornstarch', 'sugar', 'sesame oil'],
   ['1 lb chicken breast, boneless, skinless', '3 tbsp oil', '12 oz chow mein noodles, (uncooked noodles)', '2 cups cabbage', '1 large carrot, julienned', '1/2 batch green onions', '2 garlic cloves', '6 tbsp oyster sauce', '3 tbsp soy sauce', '3 tbsp light sesame oil, (not toasted)', '1/2 cup chicken stock', '1 tbsp cornstarch', '1 tbsp granulated sugar'],
-  ['In a small mixing bowl, use a whisk to combine oyster sauce, granulated sugar, sesame oil, soy sauce, chicken broth and cornstarch. Set aside. Cook your noodles according to package instructions then drain, rinse with cold water and set aside. Heat a large wok or pan with olive oil over medium-heat. Cut your chicken breasts into bite-sized strips and cook them in the oil until golden brown. Remove strips and set aside. Add carrots, cabbage and pressed garlic and saute for a few minutes until veggies are slightly softened and the cabbage is a bit translucent. Add chicken and noodles back into the pan. Pour sauce over the top and continue cooking all the ingredients together for another 2 minutes. Garnish your chow mein with chopped green onions and serve the noodles straight from the pan and piping hot!'],
+  ['In a small mixing bowl, use a whisk to combine oyster sauce, granulated sugar, sesame oil, soy sauce, chicken broth and cornstarch. Set aside.', 'Cook your noodles according to package instructions then drain, rinse with cold water and set aside. Heat a large wok or pan with olive oil over medium-heat.', 'Cut your chicken breasts into bite-sized strips and cook them in the oil until golden brown. Remove strips and set aside.', 'Add carrots, cabbage and pressed garlic and saute for a few minutes until veggies are slightly softened and the cabbage is a bit translucent.', 'Add chicken and noodles back into the pan. Pour sauce over the top and continue cooking all the ingredients together for another 2 minutes.', 'Garnish your chow mein with chopped green onions and serve the noodles straight from the pan and piping hot!'],
   6,
   35
 );
@@ -134,7 +134,7 @@ let friedRice = new Recipe(
   'friedRice',
   ['rice', 'sesame oil', 'onion', 'peas', 'carrot', 'soy sauce', 'egg', 'green onion'],
   ['3 cups cooked rice', ' 2 Tbs sesame oil', '1 small white onion chopped', '1 cup frozen peas and carrots, thawed', '2-3 Tablespoons soy sauce more or less to taste', '2 eggs lightly, beaten', '2 Tbsp chopped green ', 'onions optional'],
-  ['Preheat a large skillet or wok to medium heat. Pour sesame oil in the bottom. Add white onion and peas and carrots and fry until tender. Slide the onion, peas and carrots to the side, and pour the beaten eggs onto the other side. Using a spatula, scramble the eggs. Once cooked, mix the eggs with the vegetable mix. Add the rice to the veggie and egg mixture. Pour the soy sauce on top. Stir and fry the rice and veggie mixture until heated through and combined. Add chopped green onions if desired.'],
+  ['Preheat a large skillet or wok to medium heat. Pour sesame oil in the bottom.', 'Add white onion and peas and carrots and fry until tender.', 'Slide the onion, peas and carrots to the side, and pour the beaten eggs onto the other side.', 'Using a spatula, scramble the eggs. Once cooked, mix the eggs with the vegetable mix.', 'Add the rice to the veggie and egg mixture. Pour the soy sauce on top.', 'Stir and fry the rice and veggie mixture until heated through and combined.', 'Add chopped green onions if desired.'],
   4,
   25
 );
@@ -144,7 +144,7 @@ let bakedSalmon = new Recipe(
   'bakedSalmon',
   ['salmon', 'garlic', 'lemon', 'butter'],
   ['1.5 pounds salmon fillet', '1 tablespoon olive oil', '3 cloves garlic finely minced', '1/2 lemon juice only', '1 teaspoon Italian seasoning', '1/4 teaspoon salt', 'black pepper to taste', '2 tablespoons butter diced'],
-  ['Prep: Preheat oven to 400°F. Place a large piece of aluminum foil in a large rimmed baking dish that will comfortably hold all of your salmon (the baking dish is to catch any drippings - way easier to clean than your oven!). Season fish: Lightly grease the foil with olive oil. Place the salmon fillets on top (they can be close together if using individual fillets, just not on top of each other). Drizzle with 1 tablespoon olive oil and evenly scatter garlic on top. Drizzle with lemon juice and sprinkle with Italian seasoning, salt and pepper. Dot with butter. Seal foil over salmon. Bake: Bake for 10-15 minutes (depending on the thickness of your fillets) or until salmon flakes easily. Serve immediately.'],
+  ['Prep: Preheat oven to 400°F. Place a large piece of aluminum foil in a large rimmed baking dish that will comfortably hold all of your salmon (the baking dish is to catch any drippings - way easier to clean than your oven!).', 'Season fish: Lightly grease the foil with olive oil.', 'Place the salmon fillets on top (they can be close together if using individual fillets, just not on top of each other).', 'Drizzle with 1 tablespoon olive oil and evenly scatter garlic on top. Drizzle with lemon juice and sprinkle with Italian seasoning, salt and pepper. Dot with butter. Seal foil over salmon.', 'Bake: Bake for 10-15 minutes (depending on the thickness of your fillets) or until salmon flakes easily. Serve immediately.'],
   4,
   20
 );
@@ -154,7 +154,7 @@ let panFriedPotato = new Recipe(
   'panFriedPotato',
   ['potato', 'turmeric', 'garlic powder', 'cayenne pepper'],
   ['4 large potatoes', '3 tbs olive oil', '1/4 cup water', '1/2 tsp turmeric', '1 tsp garlic powder', 'Salt & pepper to taste', '1 tsp cayenne pepper'],
-  ['Wash and peel(optional) the potatoes.Cut them into wedges and add them into a non-stick pan with a little bit of water and oil.Add salt , pepper and all the other spices.Close the pan and cook until all the water is finished and potatoes will start browning on their own for about 5 minutes.Fry turning sides until all the potatoes are fully cooked and browned. That will take about 10 minutes.'],
+  ['Wash and peel(optional) the potatoes.', 'Cut them into wedges and add them into a non-stick pan with a little bit of water and oil.', 'Add salt , pepper and all the other spices. Close the pan and cook until all the water is finished and potatoes will start browning on their own for about 5 minutes.', 'Fry turning sides until all the potatoes are fully cooked and browned. That will take about 10 minutes.'],
   2,
   15
 );
@@ -164,9 +164,9 @@ let macNcheese = new Recipe(
   'macNcheese',
   ['macaroni noodles', 'butter', 'flour', 'milk', 'cheddar cheese'],
   ['1 (8 ounce) box elbow macaroni', '1/4 cup butter', '1/4 cup all-purpose flour', '1/2 teaspoon salt', 'ground black pepper to taste', '2 cups milk', '2 cups shredded Cheddar cheese'],
-  ['Bring a large pot of lightly salted water to a boil. Cook elbow macaroni in the boiling water, stirring occasionally until cooked through but firm to the bite, 8 minutes. At the same time, melt butter in a saucepan over medium heat. Add flour, salt, and pepper and stir until smooth, about 5 minutes. Pour in milk slowly, while stirring continuously. Continue to cook and stir until mixture is smooth and bubbling, about 5 minutes, making sure the milk doesn\'t burn. Add Cheddar cheese and stir until melted, 2 to 4 minutes.Drain macaroni and fold into cheese sauce until coated.'],
+  ['Bring a large pot of lightly salted water to a boil. Cook elbow macaroni in the boiling water, stirring occasionally until cooked through but firm to the bite, 8 minutes.', 'At the same time, melt butter in a saucepan over medium heat. Add flour, salt, and pepper and stir until smooth, about 5 minutes. Pour in milk slowly, while stirring continuously. ', 'Continue to cook and stir until mixture is smooth and bubbling, about 5 minutes, making sure the milk doesn\'t burn.', 'Add Cheddar cheese and stir until melted, 2 to 4 minutes.', 'Drain macaroni and fold into cheese sauce until coated.'],
   4,
-  25, 
+  25,
   'jpg'
 );
 
@@ -215,7 +215,7 @@ let vegetarianSkilletEnchiladas = new Recipe(
   'vegetarianSkilletEnchiladas',
   ['onion', 'peppers', 'garlic', 'black beans', 'enchilada sauce', 'corn', 'chili powder', 'cumin', 'tortillas', 'cheese blend'],
   ['1 tbsp oil', '1 medium onion, chopped', '1 medium sweet red pepper, chopped', '2 garlic cloves, minced', '15 oz black beans, rinsed and drained', '10 oz enchilada sauce', '1 cup frozen corn', '2 tsp chili powder', '1/2 tsp ground cumin', '1/8 tsp pepper', '8 tortillas (6 inches), cut into 1/2-inch strips', '1 cup shredded cheese blend', 'Chopped fresh cilantro (optional)', 'Sliced avocado (optional)', 'Sliced radishes (optional)', 'Sour cream (optional)', 'Lime wedges (optional)'],
-  ['Preheat oven to 400°. Heat oil in a 10-in. cast-iron or other ovenproof skillet over medium-high heat. Add onion and pepper; cook and stir until tender, 2-3 minutes. Add garlic; cook 1 minute longer. Stir in beans, enchilada sauce, corn, chili powder, cumin and pepper. Stir in tortilla strips.', 'Bring to a boil. Reduce heat; simmer, uncovered, until tortilla strips are softened, 3-5 minutes. Sprinkle with cheese. Bake, uncovered, until sauce is bubbly and cheese is melted, 3-5 minutes. If desired, garnish with optional ingredients.'],
+  ['Preheat oven to 400°. Heat oil in a 10-in. cast-iron or other ovenproof skillet over medium-high heat.', 'Add onion and pepper; cook and stir until tender, 2-3 minutes. Add garlic; cook 1 minute longer.', 'Stir in beans, enchilada sauce, corn, chili powder, cumin and pepper. Stir in tortilla strips.Bring to a boil. Reduce heat; simmer, uncovered, until tortilla strips are softened, 3-5 minutes.', 'Sprinkle with cheese. Bake, uncovered, until sauce is bubbly and cheese is melted, 3-5 minutes.', 'If desired, garnish with optional ingredients.'],
   4,
   25
 );
@@ -225,7 +225,7 @@ let albondigas = new Recipe(
   'albondigas',
   ['carrot', 'potato', 'ground beef', 'rice', 'onion', 'milk', 'cilantro', 'beef bouillon', 'bread crumbs'],
   ['1 quart water', '4 carrots, sliced', '2 small potatoes , peeled and diced', '1 medium onion, diced', '1 1/2 cups salsa, medium or hot', '2 beef bouillon cubes', '1 1/2 pounds ground beef', '1/3 cup seasoned dry bread crumbs', '1/3 cup milk', '1 tablespoon chopped fresh cilantro'],
-  ['Bring water, carrots, potatoes, onion, salsa, and bouillon cubes to a boil in a large stockpot. Reduce heat and cook, stirring occasionally, at a medium simmer for 10 minutes. Mix together beef, bread crumbs, and milk in a bowl. Form into 1-inch meatballs and drop into broth. Bring soup to a boil, then reduce heat to medium-low. Cover and cook until meatballs are no longer pink in the center and vegetables are tender, about 20 minutes. Garnish with sprinkled cilantro.'],
+  ['Bring water, carrots, potatoes, onion, salsa, and bouillon cubes to a boil in a large stockpot.', 'Reduce heat and cook, stirring occasionally, at a medium simmer for 10 minutes. Mix together beef, bread crumbs, and milk in a bowl.', 'Form into 1-inch meatballs and drop into broth. Bring soup to a boil, then reduce heat to medium-low.', 'Cover and cook until meatballs are no longer pink in the center and vegetables are tender, about 20 minutes.', 'Garnish with sprinkled cilantro.'],
   6,
   70
 );
@@ -235,7 +235,7 @@ let spamMusubi = new Recipe(
   'spamMusubi',
   ['rice', 'spam', 'rice vinegar', 'oyster sauce', 'soy sauce', 'sugar', 'seaweed'],
   ['2 cups uncooked short-grain white rice', '2 cups water', '6 tablespoons rice vinegar', '1/2 cup white sugar', '1/4 cup soy sauce', '1/4 cup oyster sauce', '1 (12 ounce) container Spam', '2 tablespoons vegetable oil', '5 sheets sushi nori (dry seaweed)'],
-  ['Drain and rinse rice. Bring 2 cups water to a boil in a medium saucepan. Add rice and stir. Reduce heat, cover, and simmer for 20 minutes. Remove pan from heat and stir in rice vinegar. Set aside to cool. Stir together sugar, soy sauce, and oyster sauce in a medium bowl until sugar is completely dissolved. Slice luncheon meat lengthwise into 10 slices, or to desired thickness, and marinate in sauce for 5 minutes. Heat oil in a large skillet over medium-high heat. Cook slices until lightly browned, about 2 minutes per side. Cut nori sheets in half and lay on a flat work surface. Place a rice press in the center of a sheet, and press rice tightly inside. Top with a slice of luncheon meat, and remove press. Wrap nori around rice, sealing edges with a small amount of water. (Rice may also be formed by hand in the shape of the meat slices and about 1-inch thick.)'],
+  ['Drain and rinse rice. Bring 2 cups water to a boil in a medium saucepan. Add rice and stir.', 'Reduce heat, cover, and simmer for 20 minutes.', 'Remove pan from heat and stir in rice vinegar. Set aside to cool.', 'Stir together sugar, soy sauce, and oyster sauce in a medium bowl until sugar is completely dissolved.', 'Slice luncheon meat lengthwise into 10 slices, or to desired thickness, and marinate in sauce for 5 minutes.', 'Heat oil in a large skillet over medium-high heat. Cook slices until lightly browned, about 2 minutes per side.', 'Cut nori sheets in half and lay on a flat work surface.', 'Place a rice press in the center of a sheet, and press rice tightly inside. Top with a slice of luncheon meat, and remove press.', 'Wrap nori around rice, sealing edges with a small amount of water. (Rice may also be formed by hand in the shape of the meat slices and about 1-inch thick.)'],
   10,
   55
 );
@@ -245,7 +245,7 @@ let redPozole = new Recipe(
   'pozoleRojo',
   ['chicken breast', 'onion', 'garlic', 'guajillo chile', 'hominy', 'cabbage', 'lime'],
   ['10 cups water', '2 pounds chicken breast', '1 small white onion, quartered', '2 garlic cloves, peeled', '2 teaspoons salt', '8 guajillo chiles, rinsed, stemmed, and seeded', '3 (15.5-ounce) cans White Hominy, rinsed and drained', 'Shredded cabbage', 'Radish slices', 'Limes', 'Diced onion', 'Dried oregano'],
-  ['In a 6-quart pot place chicken, onion, garlic, and 1 teaspoon salt and bring to a boil and then lower heat to medium-low for 20 minutes or until chicken is no longer pink. In a large bowl filled with hot water add dried chiles until the chiles have softened about 10 to 15 minutes. Discard liquid. Shred the chicken into small pieces. In a blender combine 1 cup of the cooked chicken broth with onions, garlic, and softened chiles with 1 teaspoon of salt and blend. Reserve the remaining chicken broth. Add the shredded chicken, blended sauce, and White Hominy to the pot with reserved broth and bring to a boil. Lower the heat and simmer for 20 minutes. If necessary, season with salt. Spoon pozole into soup bowls. Let your guests add the garnishes to suit their own taste.'],
+  ['In a 6-quart pot place chicken, onion, garlic, and 1 teaspoon salt and bring to a boil and then lower heat to medium-low for 20 minutes or until chicken is no longer pink.', 'In a large bowl filled with hot water add dried chiles until the chiles have softened about 10 to 15 minutes. Discard liquid.', 'Shred the chicken into small pieces.', 'In a blender combine 1 cup of the cooked chicken broth with onions, garlic, and softened chiles with 1 teaspoon of salt and blend. Reserve the remaining chicken broth.', 'Add the shredded chicken, blended sauce, and White Hominy to the pot with reserved broth and bring to a boil.', 'Lower the heat and simmer for 20 minutes.', 'If necessary, season with salt. Spoon pozole into soup bowls. Let your guests add the garnishes to suit their own taste.'],
   10,
   45
 );
@@ -268,4 +268,14 @@ let bakedChickenBreast = new Recipe(
   ['Brine the chicken. Fill a large bowl with 1 quart of warm water and 1/4 cup kosher salt. Stir to combine until most of the salt is absorbed. Add the chicken breasts and let them sit in the mixture to brine for 15 minutes, or you can also also cover the bowl and refrigerate for up to 6 hours. Remove the chicken breasts from the brine, rinse them with cold water, then pat them dry with paper towels.', 'Preheat oven to 450°F.', 'Place the chicken breasts in a single layer in a large baking dish*. Brush on both sides (turning once) evenly with the melted butter or olive oil. In a separate small bowl, whisk the salt, pepper, garlic powder and paprika until combined. Sprinkle the seasoning mixture evenly over the chicken on both sides.', 'Bake for 15-18* minutes, or until the chicken is cooked through and no longer pink. Cooking time will depend on the thickness of the chicken breasts, so I recommend using a cooking thermometer to know exactly when the chicken is fully cooked. The thickest part of the breast should measure 165°F. (If you want the chicken to be a little bit browned and crispier on top, you can turn the broiler on high for the final 3-5 minutes of the cooking time and broil the chicken until it is cooked through and golden on top. Keep a close eye on the chicken, however, so that it does not overcook and/or burn.)', 'Once the chicken is cooked, remove the pan from the oven, transfer the chicken to a clean plate, and loosely tent the plate with aluminum foil. Let the chicken rest for at least 5-10 minutes.'],
   4,
   35
+ );
+
+let sweetnSpicyChickenThighs = new Recipe(
+  'Sweet & Spicy Boneless Chicken Thighs',
+  'sweetnSpicyChickenThighs',
+  ['chicken thighs', 'butter', 'garlic', 'stock', 'rosemary', 'paprika', 'chili powder'],
+  ['6-7 Boneless Skinless Chicken Thighs', '1 tablespoon Butter', '1 tablespoon Oil ', '2 Garlic Cloves', '1/4 cup Chicken Stock', '2-3 sprigs Fresh Rosemary', '2 tablespoon Brown Sugar', '1 teaspoon Garlic Powder', '1/2 teaspoon Onion Powder', '1/2 teaspoon Smoked  Paprika', '1/2 teaspoon Chili Powder', '1/4 teaspoon Black Pepper', '1/2 teaspoon Salt'],
+  ['In a bowl mix all dry ingredients mentioned under spice rub.', 'Pat dry Chicken thighs with a kitchen towel.', 'Sprinkle the dry seasoning mix generously on both sides.', 'Heat a heavy cast iron skillet. Add butter and oil.', 'Stir in garlic cloves and fry for 30 seconds. Garlic should look light golden in color and it loses the raw smell.', 'Place chicken thighs flat side facing down. Cook on medium-high heat for about 5 minutes, until it is crispy and golden.', 'Flip and cook the other side now for another 2 minutes on medium-high heat', 'Slowly pour ¼ cup stock to the side of the pan. Add rosemary sprig. Scrap the bottom of the pan to release any brown caramelized bits.', 'Cover the pan with a lid and cook on high heat for another 2 minutes.', 'Uncover and simmer it for another minute or so for a thick sauce to form.', 'Serve along with rice, beans, or veggies with the sauce drizzled on top.'],
+  4,
+  20
 );
