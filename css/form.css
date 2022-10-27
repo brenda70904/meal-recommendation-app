@@ -54,9 +54,9 @@ nav a:active{
 }
 
 main{
-  max-width: 100%;
+  max-width: 90%;
   min-height: 80vh;
-  /* margin: auto; */
+  margin: auto;
   /* display: flex; */
   align-items: center;
   /* margin-top: 2rem; */
