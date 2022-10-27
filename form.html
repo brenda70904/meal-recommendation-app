@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <title>Your Pantry</title>
+</head>
+
+<body>
+  <header>
+    <h1>Pocket Pantry</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html">Your Pantry</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form id="ingredientsForm">
+      <section id="dropdownSection">
+        <div id="list1" class="dropdown-check-list" tabindex="100">
+          <span class="anchor">Proteins</span>
+          <ul id="proteins" name ="proteinschbx">
+          </ul>
+        </div>
+        <div id="list2" class="dropdown-check-list" tabindex="100">
+          <span class="anchor">Vegetables / Fruits</span>
+          <ul id="vegetables" name ="vagetableschbx">
+          </ul>
+        </div>
+        <div id="list3" class="dropdown-check-list" tabindex="100">
+          <span class="anchor">Dairy</span>
+          <ul id="dairy" name ="dairychbx">
+          </ul>
+        </div>
+        <div id="list4" class="dropdown-check-list" tabindex="100">
+          <span class="anchor">Carbs</span>
+          <ul id="carbs">
+          </ul>
+        </div>
+        <div id="list5" class="dropdown-check-list" tabindex="100">
+          <span class="anchor">Spices</span>
+          <ul id="spices">
+          </ul>
+        </div>
+        <div id="list6" class="dropdown-check-list" tabindex="100">
+          <span class="anchor">Other</span>
+          <ul id="other">
+          </ul>
+        </div>
+        <!-- <input type="checkbox" name="ckbxbtn" >select all -->
+      </section>
+    </form>
+    <section id="buttonSection">
+      <a href="results.html"><input value="Get Recipes" type="submit" id="submit"></a>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <a href="https://www.instagram.com/">
+        <img class="socialMedia" src="Images/instagram.svg" alt="Take me to Instagram">
+      </a>
+      <a href="https://twitter.com/home">
+        <img class="socialMedia" src="Images/twitter.svg" alt="Take me to Twitter">
+      </a>
+      <a href="https://www.facebook.com/">
+        <img class="socialMedia" src="Images/facebook.svg" alt="Take me to Facebook">
+      </a>
+    </div>
+    <p>&copy; Blue Tiger Media, 2022</p>
+  </footer>
+  <script src="JS/constructor.js"></script>
+  <script src="JS/form.js"></script>
+
+</body>
+
+</html>

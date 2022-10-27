@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  display: flex;
+  padding: 15px 0px;
+  align-items:flex-end;
+  justify-content: space-between;
+  background-color: rgb(66, 65, 65);
+}
+
+h1{
+  font-size: 70px;
+  padding-left: 20px;
+  margin: 10px;
+  min-width: 400px;
+  font-family: 'Lobster', cursive;
+  color: rgb(236, 233, 233);
+}
+
+nav{ 
+  min-width: 500px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav a{
+  font-size: 30px;
+  text-decoration: none;
+  padding: 0 30px;
+  cursor: pointer;
+  font-family: 'Lobster', cursive;
+  transition: 0.2s;
+  color:rgb(236, 233, 233)
+}
+
+nav a:hover{
+  color: #eb682f;
+  text-decoration: underline;
+}
+
+nav a:active{
+  color: black;
+}
+
+main{
+  max-width: 100%;
+  min-height: 100vh;
+  margin: auto;
+  /* display: flex; */
+  align-items: center;
+  /* margin-top: 2rem; */
+  position: relative;
+  /* margin-bottom: 9rem; */
+  /* border: 1px solid black;*/
+  background-image: url("../Images/BG.PNG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #eceee7;
+} 
+
+form{
+  width: 1400px;
+  margin: 0px auto;
+  margin-bottom: 100px;
+  padding-top: 15px;
+}
+
+#dropdownSection{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  /* margin: 10px 0; */
+}
+
+.dropdown-check-list{
+  display: inline-block;
+}
+
+.anchor{
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 30px 5px 5px;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 220px;
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  color: black;
+  background-color: #eb682f;
+}
+
+.anchor:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.anchor:active:after {
+  right: 8px;
+  top: 21%;
+}
+
+.dropdown-check-list ul {
+  padding: 2px;
+  display: none;
+  margin: 0;
+  border: 1px solid grey;
+  border-radius: 5px;
+  border-top: none;
+  background-color: rgb(236, 233, 233);
+}
+
+.dropdown-check-list li {
+  list-style: none;
+  font-size: 25px;
+  font-family: 'Patrick Hand', cursive;
+  line-height: 25px;
+  background-color: rgb(236, 233, 233);
+}
+
+/* .dropdown-check-list.visible .anchor {
+  color: #0094ff;
+} */
+
+.dropdown-check-list.visible #proteins {
+  display: block;
+}
+
+.dropdown-check-list.visible #vegetables {
+  display: block;
+}
+
+.dropdown-check-list.visible #dairy {
+  display: block;
+}
+
+.dropdown-check-list.visible #carbs {
+  display: block;
+}
+
+.dropdown-check-list.visible #spices {
+  display: block;
+}
+
+.dropdown-check-list.visible #other {
+  display: block;
+}
+
+input{
+  cursor: pointer;
+}
+
+label{
+  cursor: pointer;
+}
+
+#buttonSection a{
+  margin: 20px auto;
+  position: absolute;
+  bottom: 10px;
+  left: auto;
+}
+
+#buttonSection{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#submit{
+  width: 250px;
+  font-size: 30px;
+  padding: 5px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #eb682f;
+  font-family: 'Patrick Hand', cursive;
+  box-shadow: 1px 1px 3px;
+  transition: 0.2s;
+}
+
+#submit:hover{
+  color: white;
+}
+
+#submit:active{
+  color: black;
+}
+
+footer{
+  text-align: center;
+  background-color: rgb(66, 65, 65);
+  color: white;
+}
+
+footer a{
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+}
+
+.socialMedia{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin: 20px;
+  transition: 0.2s;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+.socialMedia:hover{
+  opacity: 0.5;
+}
+
+.socialMedia:active{
+  opacity: 1;
+}
+
+footer p{
+  padding-bottom: 10px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
