@@ -55,34 +55,34 @@ for (let i = 0; i < options.length; i++) {
 
 
 
-function selectAll() {
-  console.log('worked')
-  for(let i = 0; i < options.length; i++ ){
-    if(options[i][0].checked === true){
-      for(let j = 0; j < options[i].length; j++){
-        console.log('hey!');
-        cb[j].checked = true;
-      }
-    }
-  }
-  // let select = document.getElementsByName('ckbx');
-  // console.log(select.length);
-  // console.log(typeof select);
-  // for (var checkbox in select)
-  //   checkbox.checked = source.checked;
-  // // for (let i = 0; i < select.length; i++) {
-  // //   if (select[i].type == 'checkbox') {
-  // //     select = true;
-  // //   }
-  // // }
-}
-// for(let i = 0; i < options.length; i++ ){
-//   options[i][0].setAttribute('name', 'ckAll');
+// function selectAll() {
+//   console.log('worked')
+//   for(let i = 0; i < options.length; i++ ){
+//     if(options[i][0].checked === true){
+//       for(let j = 0; j < options[i].length; j++){
+//         console.log('hey!');
+//         cb[j].checked = true;
+//       }
+//     }
+//   }
+//   // let select = document.getElementsByName('ckbx');
+//   // console.log(select.length);
+//   // console.log(typeof select);
+//   // for (var checkbox in select)
+//   //   checkbox.checked = source.checked;
+//   // // for (let i = 0; i < select.length; i++) {
+//   // //   if (select[i].type == 'checkbox') {
+//   // //     select = true;
+//   // //   }
+//   // // }
 // }
+// // for(let i = 0; i < options.length; i++ ){
+// //   options[i][0].setAttribute('name', 'ckAll');
+// // }
 
 
-let selectAllbtn = document.getElementById('(select all)');
-selectAllbtn.addEventListener('click', selectAll);
+// let selectAllbtn = document.getElementById('(select all)');
+// selectAllbtn.addEventListener('click', selectAll);
 
 
 let cb = document.querySelectorAll('input');
