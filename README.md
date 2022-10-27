@@ -1,13 +1,22 @@
-# Team Blue-Tiger
+# Pocket Pantry - Team Blue Tiger
 
-# Meal recommendation App
-We build an app with a direct and powerful purpose. This site that allows the user to input what ingredients they have then the site would return a minimum of one recipe.It does all of the things that it accomplishes well. We should describe the purpose and functionality so those that visit my README understand the app.
+## What Does Our App Do?
+
+Our app will allow a user to input ingredients they have at home to find recipes they can make with those ingredients.
+
+## Key Features
+
+* Divides ingredients into separate categories
+* Displays all recipes in database that match user-input ingredients
+Provides detailed recipe information to include serving size and cook times
+* If no matches are found, the app suggests recipes that only require 1 additional ingredient
 
 Author: Brenda Jow, Cody Delatorre, Jason Christopher
 
+## Links and Resources
 
-<!-- Links and Resources
-Any Links you used as reference
-Reflections and Comments
-Consider including the answers to your daily journal and submission questions here
-This is also a good place to reflect on the tools and resources used and learned-->
+* [W3 Schools](https://www.w3schools.com/)
+* [United States Department of Agriculture](https://www.usda.gov/)
+* [Google Images](https://images.google.com/)
+* [Unsplash](https://unsplash.com/)
+* [Joanna Kosinska](https://unsplash.com/photos/Prfs32wh-o4)
