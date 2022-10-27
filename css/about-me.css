@@ -6,6 +6,7 @@ body{
   margin: 0 auto;
   width: 100%;
   height: 100%;
+  background-color: #eceee7;
 }
 
 header{
@@ -13,7 +14,7 @@ header{
   padding: 15px 0px;
   align-items:flex-end;
   justify-content: space-between;
-  background-color: rgb(236, 233, 233);
+  background-color: rgb(66, 65, 65);
 }
 
 h1{
@@ -22,6 +23,7 @@ h1{
   margin: 10px;
   min-width: 400px;
   font-family: 'Lobster', cursive;
+  color: rgb(236, 233, 233);
 }
 
 h2{
@@ -45,10 +47,10 @@ nav a{
   font-size: 30px;
   text-decoration: none;
   padding: 0 30px;
-  color: black;
   cursor: pointer;
   font-family: 'Lobster', cursive;
   transition: 0.2s;
+  color:rgb(236, 233, 233)
 }
 
 nav a:hover{
@@ -67,8 +69,29 @@ main{
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 9rem;
+  background-color: #eceee7;
 } 
 
+main img{
+  height: 470px;
+  width: 400px;
+  object-fit: cover;
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px;
+}
+
+main div{
+  text-align: center;
+  width: 450px;
+  margin: 0 20px;
+}
+
+main p{
+  max-width: 540px;
+  font-size: 25px;
+  margin: 20px;
+}
 
 
 .flexSection{
@@ -85,8 +108,10 @@ main{
   margin: 40px 0;
 }
 
- footer{
+footer{
   text-align: center;
+  background-color: rgb(66, 65, 65);
+  color: white;
 }
 
 footer a{
@@ -98,10 +123,11 @@ footer a{
 .socialMedia{
   width: 50px;
   height: 50px;
-  color: black;
   cursor: pointer;
   margin: 20px;
   transition: 0.2s;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
 }
 
 .socialMedia:hover{
@@ -113,9 +139,9 @@ footer a{
 }
 
 footer p{
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 body::-webkit-scrollbar {
   display: none;
-} 
+}
