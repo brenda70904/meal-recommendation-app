@@ -250,6 +250,26 @@ let redPozole = new Recipe(
   45
 );
 
+let honeyGarlicChicken = new Recipe(
+  'Honey Garlic Chicken',
+  'honeyGarlicChicken',
+  ['chicken breast', 'flour', 'butter', 'garlic', 'vinegar', 'soy sauce', 'honey'],
+  ['1 lb chicken breast, boneless and skinless', 'Salt and pepper', '1/4 cup flour', '3 1/2 tbsp unsalted butter (or 2 1/2 tbsp olive oil)', '2 garlic cloves , minced', '1 1/2 tbsp apple cider vinegar (or white or other clear vinegar)', '1 tbsp soy sauce , light or all purpose', '1/3 cup honey (or maple syrup)'],
+  ['Cut the breasts in half horizontally to create 4 steaks in total. Sprinkle each side with salt and pepper.', 'Place flour in a shallow dish. Coat chicken in flour and shake off excess.', 'Melt most of the butter in a large skillet over high heat – hold back about 1 tsp for later.', 'Place chicken in skillet and cook for 2 – 3 minutes until golden. Turn and cook the other side for 1 minute.', 'Turn heat down slightly to medium high.', 'Make a bit of room in the pan and add garlic and top with remaining dab of butter. Stir garlic briefly once butter melts.', 'Add vinegar, soy sauce and honey. Stir / shake pan to combine. Bring sauce to simmer, then simmer for 1 minute or until slightly thickened.', 'Turn chicken to coat in sauce. If the sauce gets too thick, add a touch of water and stir.', 'Remove from stove immediately. Place chicken on plates and drizzle over remaining sauce.'],
+  4,
+  12
+);
+
+let bakedChickenBreast = new Recipe(
+  'Baked Chicken Breast',
+  'bakedChickenBreast',
+  ['chicken breast', 'butter', 'garlic powder', 'paprika'],
+  ['4 boneless skinless chicken breasts', '1 tbsp melted butter or olive oil', '1 tsp kosher salt', '1/2 tsp freshly-ground black pepper', '1/2 tsp garlic powder', '1/2 tsp smoked paprika'],
+  ['Brine the chicken. Fill a large bowl with 1 quart of warm water and 1/4 cup kosher salt. Stir to combine until most of the salt is absorbed. Add the chicken breasts and let them sit in the mixture to brine for 15 minutes, or you can also also cover the bowl and refrigerate for up to 6 hours. Remove the chicken breasts from the brine, rinse them with cold water, then pat them dry with paper towels.', 'Preheat oven to 450°F.', 'Place the chicken breasts in a single layer in a large baking dish*. Brush on both sides (turning once) evenly with the melted butter or olive oil. In a separate small bowl, whisk the salt, pepper, garlic powder and paprika until combined. Sprinkle the seasoning mixture evenly over the chicken on both sides.', 'Bake for 15-18* minutes, or until the chicken is cooked through and no longer pink. Cooking time will depend on the thickness of the chicken breasts, so I recommend using a cooking thermometer to know exactly when the chicken is fully cooked. The thickest part of the breast should measure 165°F. (If you want the chicken to be a little bit browned and crispier on top, you can turn the broiler on high for the final 3-5 minutes of the cooking time and broil the chicken until it is cooked through and golden on top. Keep a close eye on the chicken, however, so that it does not overcook and/or burn.)', 'Once the chicken is cooked, remove the pan from the oven, transfer the chicken to a clean plate, and loosely tent the plate with aluminum foil. Let the chicken rest for at least 5-10 minutes.'],
+  4,
+  35
+ );
+
 let sweetnSpicyChickenThighs = new Recipe(
   'Sweet & Spicy Boneless Chicken Thighs',
   'sweetnSpicyChickenThighs',

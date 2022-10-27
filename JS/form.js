@@ -20,13 +20,11 @@ for (let i = 0; i < dropList.length; i++) {
 const form = document.querySelector('form');
 
 let allProtein = ['chicken breast', 'chicken thighs', 'pork', 'beef brisket', 'flank steak', 'corned beef', 'ground beef', 'salmon', 'spam', 'egg', 'black beans'].sort();
-
 let allVegFruit = ['garlic', 'ginger', 'onion', 'green onion', 'tomato', 'potato', 'green beans', 'peppers', 'mushrooms', 'carrot', 'peas', 'cabbage', 'seaweed', 'hominy', 'guajillo chile', 'cilantro', 'basil', 'lemon', 'lime', 'bok choy', 'broccoli', 'edamame', 'corn'].sort();
-
 let allDairy = ['feta cheese', 'parmesan cheese', 'cheddar cheese', 'cheese blend', 'milk', 'cream', 'butter', 'coconut milk', 'yogurt'].sort();
 let allCarbs = ['ramen noodles', 'spaghetti noodles', 'chow mein noodles', 'macaroni noodles', 'bread crumbs', 'rice', 'tortillas', 'bread'].sort();
 let allSpices = ['turmeric', 'cumin', 'oregano', 'paprika', 'parsley', 'garlic powder', 'red chili flakes', 'yellow curry powder', 'cayenne pepper', 'chili powder', 'rosemary'].sort();
-let allOther = ['brown sugar', 'cashews', 'sugar', 'sesame oil', 'cornstarch', 'rice vinegar', 'capers', 'pine nuts', 'red curry paste', 'soy sauce', 'oyster sauce', 'balsamic vinegar', 'ketchup', 'mustard', 'hoisin sauce', 'beef bouillon', 'stock', 'honey', 'enchilada sauce', 'flour', 'baking soda'].sort();
+let allOther = ['brown sugar', 'cashews', 'sugar', 'sesame oil', 'cornstarch', 'rice vinegar', 'capers', 'pine nuts', 'red curry paste', 'soy sauce', 'oyster sauce', 'balsamic vinegar', 'vinegar','ketchup', 'mustard', 'hoisin sauce', 'beef bouillon', 'stock', 'honey', 'enchilada sauce', 'flour', 'baking soda'].sort();
 
 let listOne = document.getElementById('proteins');
 let listTwo = document.getElementById('vegetables');
